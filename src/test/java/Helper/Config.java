@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Config {
 public static WebDriver driver; 
+public static Actions actions; 
 public static void confChrome() {
 	System.setProperty("webdriver.chrome.driver", "c:/chromedriver.exe");
 	
